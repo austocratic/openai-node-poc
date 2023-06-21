@@ -29,17 +29,11 @@ The code is based on this tutorial, but can be refactored to meet our needs: htt
 Currently, the code supports .txt & .pdf files. But other file loading is available:
 https://js.langchain.com/docs/modules/indexes/document_loaders/examples/file_loaders/
 
+## Possible enhancements
 
-
-
-
-
-
-
-// Additional enhancements
-// 1) Create API layer for taking a REST call with a model parameter
-// 2) Model validation: If model does not exist return a message
-// 3) Prepare the prompt:
-  // 3.1) Set the language (how do we can the language)
-  // 3.2) Use the model # in the query
+1) Create API layer for taking a REST call with a model parameter
+2) Model validation: If model does not exist return a message
+3) Prepare the prompt:
+    3.1) Set the language (how do we can the language)
+    3.2) Use the model # in the query
 
